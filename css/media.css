@@ -1,0 +1,72 @@
+/* media for navbar */
+@media only screen and (min-width:991px){
+    .navbar-center{
+        display: flex;
+        margin: auto;
+    }
+    }
+    
+    @media only screen and (max-width:991px){
+    .navbar-center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider-grid-content{
+        display: none;
+    }
+    h1 ,h5,h2,h3,h4,h6{
+        font-weight: bold;
+        
+    }
+    p{
+        font-size: 15px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.bg-white img{
+        width: 55px !important;
+        height: 55px !important;
+    }
+    /* ul.navbar-center li {
+        width: 98vw;
+        padding-bottom: 3px;
+        border: 2px solid rgb(116, 110, 110);
+        display: flex;
+        justify-content: center;
+        background-color: #fffdfd;
+        margin: 0;
+    } */
+    
+    }
+
+    /* services */
+@media only screen and (max-width:668px){
+#service-section{
+display: block;
+/* overflow: auto; */
+}
+h1{
+
+    font-size: 1.5rem;
+}
+img{
+    width: 200px !important;
+    height: 200px !important;
+}
+
+
+}
+
+@media only screen and (max-width:1024px){
+    .slider-grid{
+        display: none;
+    }
+    .service-img img{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    img{
+        width: 300px !important;
+        height: 300px !important;
+    }
+}

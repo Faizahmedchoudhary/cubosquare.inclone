@@ -1,0 +1,217 @@
+
+.Android-application-development{
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    padding-left: 3rem !important;
+}
+.android-dev-image{
+    display: grid;
+}
+.android-dev-img{
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+.android-dev-text-img{
+    display: flex;
+    flex-direction: column;
+    height: 55px;
+    width: 55px;
+    /* justify-content: center !important;
+    align-items: center !important; */
+
+}
+.android-dev-box-img{
+    border: 2px solid grey;
+    border-radius: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    padding: 0.3rem;
+}
+.android-dev-text-box{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    padding:2rem 3rem 2rem 0rem ;
+}
+.android-dev-text-box h5 , p{
+    text-align: start;
+}
+.android-dev-text-content
+{
+    padding-left: 2rem;
+}
+
+@media only screen and (max-width:768px){
+    .android-dev-text-box img{
+        width: 40px !important;
+        height: 40px !important;
+    }
+}
+
+
+@media only screen and (max-width:1023px){
+    .Android-application-development{
+         display: block;
+    }
+    .android-dev-image img{
+        height: 500px;
+        width: 300px;
+    }
+}
+
+
+
+/* reviews */
+.rev-box{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    /* margin-bottom: 20vw; */
+    padding: 0rem 3rem;
+}
+.rev-box-text{
+    width: 30vw;
+    height: auto;
+    border: 2px solid #e2e2e2;
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    margin-left: 0.5rem;
+}
+.rev-box-text:hover{
+    box-shadow: 5px -5px 10px #F2F2F2;
+}
+
+.rev-box-text-img , .rev-box-text-content{
+    text-align: center;
+}
+.rev-box-text-img img{
+    border: 2px solid rgb(248, 243, 243);
+    border-radius: 50%;
+    height: 80px !important;
+    width: 80px !important;
+}
+.rev-box-text p{
+    padding: 0 1rem;
+
+}
+@media only screen and (max-width:767px){
+    .rev-box{
+        display: block;
+        /* margin: auto; */
+    }
+    .rev-box-text {
+        margin-top: 2rem;
+        width: 70vw;
+    }
+}
+@media only screen and (max-width:1023px){
+
+    .rev-box-text{
+        margin-left: 0.5rem !important;
+    }
+    .rev-box-text-img img{
+        height: 60px !important;
+        width: 60px !important;
+    }
+}
+
+/* contact */
+.contact{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    padding: 0rem 3rem;
+    margin-top: 5rem;
+}
+
+.head-left-box{
+    display: grid;
+    grid-template-columns: 6fr 8fr;
+}
+
+/* phone */
+.phone{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.location-text{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.location-head{
+    margin-top: 3rem;
+}
+
+.contact img{
+    width: 60px !important;
+    height: 60px !important;
+}
+@media only screen and (max-width:768px){
+    .contact img{
+        width: 40px !important;
+        height: 40px !important;
+    } 
+    .contact{
+        display: block !important;
+    }
+    .head-left-box {
+        display: block;
+    }
+    .map iframe{
+        width: 50vw !important;
+        height: 300px !important;
+        margin: auto;
+    }
+   
+}
+
+
+/* footer */
+.footer{
+    display: grid;
+    grid-template-columns:15rem 15rem 15rem 15rem 15rem;
+    background-color: #262D37;
+    color: white;
+    padding: 5rem 0rem;
+    padding-left: 5rem;
+}
+.footer p{
+    font-size: 15px;
+}
+.useful-links li a{
+    color: white;
+    text-align: start !important;
+}
+.footer h5{
+    text-align: start;
+}
+.copyright img{
+    width:100px !important; 
+    height:100px !important; 
+}
+@media only screen and (max-width:768px){
+    .footer{
+        display: block !important;
+    }
+    .copyright img{
+        width:40px !important; 
+        height:40px !important; 
+    }
+}
+@media only screen and (min-width:769px){
+    .footer{
+        display: grid !important;
+        grid-template-columns: 50vw 50vw;
+        width: 100vw !important;
+    }
+}
+/* copyright */
+.copyright{
+    display:flex;
+     padding: 3rem 0rem;
+    background-color: #262D37;
+    color: white;
+    justify-content: space-around;
+    border-top: 2px solid #3C424B;
+}
+hr{
+    color: red !important;
+}
